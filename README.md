@@ -1,6 +1,14 @@
 # nyo
 nyo is an image gallery with no central point of control
 
+## login
+log in with your ethereum wallet provider
+
+wallet supports:
+* fortmatic
+* metamask (coming soon)
+[![demo sign](nyo_login.gif)](nyo_login.gif)
+
 ## background 
 nyo is based on the following protocols:
 * open index protocol for index metadata

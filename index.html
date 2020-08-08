@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>nyo demo</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js@1.0.0-beta.36/dist/web3.min.js"></script>
+  <!-- <link href="style.css" rel="stylesheet" type="text/css" /> -->
+  <script src="https://cdn.jsdelivr.net/npm/fortmatic@latest/dist/fortmatic.js"></script>
+  <script src="index.js"></script>
+</head>
+
+<body>
+      <div class="method">
+        <h3 id="personal-sign">sendAsync: personal_sign</h3>
+        <p class="description">
+          Signs data using a specific account (Legacy way).
+        </p>
+        <div class="divider"></div>
+        <div class="action">
+          <label>message</label>
+          <input type="text" name="message" placeholder="message" />
+          <a class="btn" onclick="handlePersonalSign(this)">Sign Data</a>
+        </div>
+      </div>
+      <br/>
+      <div id = "info">
+        <div id = "address"></div>
+        <div id = "signature"></div>
+      </div>
+</body>
+</html>
